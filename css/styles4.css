@@ -1,0 +1,31 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(236, 189, 34);
+  color: rgb(3, 0, 0);
+  text-align: center;
+}
+
+body {
+  background-image: url('../img/entryback.jpg');
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+}
+
+h1 {
+  color: white;
+  margin-left: 38%;
+  margin-top: 10%;
+  font-size: 100px;
+}
+
+h3 {
+  color: white;
+}
+
+input {
+  color: white;
+}
