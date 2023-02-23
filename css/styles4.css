@@ -40,8 +40,8 @@ input {
 }
 
 .buttons {
-  margin-left: -280px;
-    margin-top: 180px;
+  margin-left: -295px;
+    margin-top: 140px;
     width: 84px;
     height: 45px;   
     background: transparent;
@@ -60,6 +60,10 @@ input {
 }
 
 #order-div {
-  margin-left: 950px;
-  margin-top: -450px;
+  margin-left: 490px;
+  margin-top: -400px;
+}
+
+.pizzaForm {
+  margin-left: 190px;
 }
