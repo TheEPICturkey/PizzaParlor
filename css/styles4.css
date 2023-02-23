@@ -29,3 +29,37 @@ h3 {
 input {
   color: white;
 }
+
+#content-container{
+  margin-top: 0em;
+  margin-left: 550px;
+  border:1px double rgba(0, 0, 0, 0);
+  padding-bottom: 0.5em;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 23px;
+}
+
+.buttons {
+  margin-left: -280px;
+    margin-top: 180px;
+    width: 84px;
+    height: 45px;   
+    background: transparent;
+    border: none;
+    color: white;   
+    font-size:14px;
+    font-weight:700;
+    color: rgba(139, 0, 0, 0);
+}
+
+.neonButton {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(240, 248, 255, 0);
+  font-size: 30px;
+  color: white;
+}
+
+#order-div {
+  margin-left: 950px;
+  margin-top: -450px;
+}

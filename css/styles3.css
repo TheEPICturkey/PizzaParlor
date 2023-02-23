@@ -24,9 +24,9 @@ h1 {
 
 ul {
   color: white;
-  margin-left: 42%;
-  margin-top: 4%;
-  font-size: 50px;
+  margin-left: 41%;
+  margin-top: -2%;
+  font-size: 40px;
 }
 
 .neonButton {
@@ -47,4 +47,5 @@ ul {
     font-size:14px;
     font-weight:700;
     color: rgba(139, 0, 0, 0);
+    
 }
