@@ -1,7 +1,7 @@
-# _GoodboysPizzeria_
+# _PizzaParlor_
 
 #### By _**Brandon Spear**_
- :blush: :smiley_dog: :smile_dog:
+ :blush:
 
 https://github.com/TheEPICturkey
 https://www.linkedin.com/in/brandon-m-spear/
@@ -37,6 +37,8 @@ Describe: Pizza()
 Test 1: It should return a Pizza object with one property for size string, and one for toppings array.
 Code: const myPizza = new Pizza("medium", ["veggieMix"]);
 Expected: Pizza {size: 'medium', topping: Array(1)}size: "medium"topping: ['veggieMix'][[Prototype]]: Object
+
+Describe:
 
 
 ## License
