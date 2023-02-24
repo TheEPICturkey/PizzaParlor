@@ -92,12 +92,16 @@ function convertOrder(order){
   const convertedArray = [];
   processArray.forEach(function(element){
     if(Array.isArray(element)){
+      
+      log("found array");
       const subArray = Object.values(element);
       subArray.forEach(function(element){
         convertedArray.push(element);
+        console.log("pushing " + element);
       });
     } else {
       convertedArray.push(element);
+      console.log("pushing " + element);
     }
   });
   return convertedArray;
@@ -144,6 +148,7 @@ function displayOrder(order, costs){
 }
 
 function displayCost(cost){
+  console.log("hello")
   const subDisplay = document.querySelector("span#subtotal");
   const taxDisplay = document.querySelector("span#total-tax");
   const costDisplay = document.querySelector("span#total-cost");

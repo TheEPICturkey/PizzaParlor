@@ -69,12 +69,12 @@ input {
 }
 
 .buttons1 {
-  margin-left: 430px;
-    margin-top:40px;
+  margin-left: 240px;
+    margin-top:-90px;
     width: 84px;
     height: 45px;   
     background: transparent;
-    border: none;
+    border: chocolate;
     color: white;   
     font-size:14px;
     font-weight:700;

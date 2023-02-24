@@ -29,6 +29,10 @@
           <label for="cheese" style="color: white;">Extra Cheese</label><br>
           <input type="checkbox" name="topping" id="crust" value="crust">
           <label for="crust" style="color: white;">Cheese Stuffed Crust</label><br>
+          <div class="buttons1">
+            <button type="submit" id="submit" style="height: 50px; width: 200px;" class="neonButton1">Submit</button> 
+            <button type="reset" id="reset" style="height: 50px; width: 200px;" class="neonButton1" onclick="clear()">Reset</button>
+          </div>
       </form>
       <div class="order" id="order-div">
         <h3 style="color: white;">Your order</h3>
@@ -37,10 +41,13 @@
         <h5 style="color: white;">Tax: <span id="total-tax"></span></h5>
         <h5 style="color: white;">Total: <span id="total-cost"></span></h5>
       </div>
-      <div class="buttons1">
-        <button type="submit" id="submit-button" style="height: 50px; width: 200px;" class="neonButton1">Submit</button> 
-        <button type="reset" id="reset" style="height: 50px; width: 200px;" class="neonButton1">Reset</button>
-      </div>
+    <!-- <div class="col-md-3" id="order-div">
+      <h3>Your order</h3>
+      <div id="order-list"></div>
+      <h5>Subtotal: <span id="subtotal"></span></h5>
+      <h5>Tax: <span id="total-tax"></span></h5>
+      <h5>Total: <span id="total-cost"></span></h5>
+    </div> -->
       <div class="buttons">
         <a href="entry.html">
           <button type="button" style="height: 50px; width: 200px;" class="neonButton">Back</button>
