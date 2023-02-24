@@ -38,7 +38,21 @@ Test 1: It should return a Pizza object with one property for size string, and o
 Code: const myPizza = new Pizza("medium", ["veggieMix"]);
 Expected: Pizza {size: 'medium', topping: Array(1)}size: "medium"topping: ['veggieMix'][[Prototype]]: Object
 
-Describe:
+Describe Pizza.prototype.totalCost()
+
+Test 1: It should return a number (price) that considers the size of the pizza with tax. Tax is 10%.  
+Code:  
+  const myPizza = new Pizza("small");  
+  myPizza.totalCost();  
+Expected Result:  
+  10.10 
+
+Test 2: It should return a number (price) that considers any number of toppings with tax.
+Code:  
+  const myPizza = new Pizza ("small", ["pepperoni", "pineapple", "veggieMix"]);
+  myPizza.totalCost();
+Expected Result:  
+  15.95  
 
 
 ## License
