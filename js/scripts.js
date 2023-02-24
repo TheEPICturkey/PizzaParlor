@@ -131,3 +131,28 @@ function listCosts(convertedArray){
   });
   return(listArray);
 }
+
+function displayOrder(order, costs){
+  const orderList = document.createElement("ol");
+  const orderDisplay = document.getElementById("order-list");
+  for (let i=0; i < order.length; i++){
+    const li = document.createElement("li");
+    li.innerText = order[i] + "..." + costs[i];
+    orderList.append(li);
+  }
+  orderDisplay.append(orderList);
+}
+
+function displayCost(cost){
+  const subDisplay = document.querySelector("span#subtotal");
+  const taxDisplay = document.querySelector("span#total-tax");
+  const costDisplay = document.querySelector("span#total-cost");
+  let sub = cost / 1.10;
+  let tax = sub * 0.10;
+  sub = "$" + sub.toFixed(2);
+  tax = "$" + tax.toFixed(2);
+  cost = "$" + cost.toFixed(2);
+  subDisplay.innerText = sub;
+  taxDisplay.innerText = tax;
+  costDisplay.innerText = cost;
+}
