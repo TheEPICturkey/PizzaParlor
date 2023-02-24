@@ -8,7 +8,7 @@
 <body>
   <h1>Order Here!</h1>
   <div class="container" id="content-container">
-      <form class="pizzaForm">
+      <form class="pizzaForm" id="pizza-form">
         <h3>Pizza Size<span class="text-danger">*</span></h3>
           <input type="radio" name="size" id="small" value="small" required>
           <label for="small" style="color: white;">Small</label><br>
@@ -34,20 +34,13 @@
             <button type="reset" id="reset" style="height: 50px; width: 200px;" class="neonButton1" onclick="clear()">Reset</button>
           </div>
       </form>
-      <div class="order" id="order-div">
+      <div class="order-div" id="order-div">
         <h3 style="color: white;">Your order</h3>
         <div id="order-list"></div>
         <h5 style="color: white;">Subtotal: <span id="subtotal"></span></h5>
         <h5 style="color: white;">Tax: <span id="total-tax"></span></h5>
         <h5 style="color: white;">Total: <span id="total-cost"></span></h5>
       </div>
-    <!-- <div class="col-md-3" id="order-div">
-      <h3>Your order</h3>
-      <div id="order-list"></div>
-      <h5>Subtotal: <span id="subtotal"></span></h5>
-      <h5>Tax: <span id="total-tax"></span></h5>
-      <h5>Total: <span id="total-cost"></span></h5>
-    </div> -->
       <div class="buttons">
         <a href="entry.html">
           <button type="button" style="height: 50px; width: 200px;" class="neonButton">Back</button>
