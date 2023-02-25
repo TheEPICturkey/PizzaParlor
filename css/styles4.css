@@ -41,7 +41,7 @@ input {
 
 .buttons {
   margin-left: -295px;
-    margin-top: 35px;
+    margin-top: 135px;
     width: 84px;
     height: 45px;   
     background: transparent;
@@ -70,7 +70,7 @@ input {
 
 .buttons1 {
   margin-left: 240px;
-    margin-top:-90px;
+    margin-top:-50px;
     width: 84px;
     height: 45px;   
     background: transparent;
@@ -86,4 +86,9 @@ input {
   border-color: rgba(240, 248, 255, 0);
   font-size: 30px;
   color: white;
+}
+
+.terms {
+  margin-left: 600px;
+  margin-right: 250px;
 }
