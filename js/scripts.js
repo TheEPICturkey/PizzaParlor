@@ -230,7 +230,7 @@ function handleSubmission(event){
   const size = document.querySelector("input[name='size']:checked").value;
   const toppingsSelected = document.querySelectorAll("input[name='topping']:checked");
   const toppings = getInputValue(toppingsSelected);
-  const pizza1 = new Pizza(size, cheeseAmt, toppings, drinks, cheese);
+  const pizza1 = new Pizza(size, toppings, cheese);
   const cost = pizza1.totalCost();
   const myOrder = convertOrder(pizza1);
   const myCost = listCosts(myOrder);
